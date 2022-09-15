@@ -75,8 +75,7 @@ export const NameInput = styled.input`
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   font-size: 20px;
-  opacity: 0.7;
-  color: #fff;
+  opacity: 0.7
   
 
   @media screen and (max-width: 820px){
@@ -92,8 +91,7 @@ export const EmailInput = styled.input`
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   font-size: 20px;
-  opacity: 0.7;
-  color: #fff;
+  opacity: 0.7
 
   @media screen and (max-width: 820px){
     margin: 50px;
@@ -129,8 +127,7 @@ export const TextInput = styled.textarea`
     border-radius: 10px;
     font-size: 20px;
     transition: 0.3s all;
-    opacity: 0.7;
-    color: #fff;
+    opacity: 0.7
 `
 
 export const BtnWrapper = styled.div`
