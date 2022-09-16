@@ -25,7 +25,9 @@ export const MeioWrapper = styled.div`
   min-width: auto;
   margin: 0 auto;
   display: grid;
+  
   grid-template-columns: 1fr 1fr;
+  
 
   @media screen and (max-width: 768px){
     display: flex;
@@ -51,7 +53,8 @@ export const Image = styled.img`
     
     
     width: 100%;
-    
+    max-width: 700px;
+    min-width: auto;
 
     @media screen and (max-width: 768px){
       margin-left: 30px;
